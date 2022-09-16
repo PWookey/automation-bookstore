@@ -16,6 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    cd e2e
     npm install
     npm run test
   displayName: 'npm install and build'
